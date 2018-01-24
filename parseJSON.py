@@ -27,11 +27,9 @@ pass
 
 def getjson(url, pagetoken, key, query):
     time.sleep(4)
+
     if pagetoken == '':
-
         print('url', url)
-        print('token', pagetoken)
-
         pass
 
     else:
