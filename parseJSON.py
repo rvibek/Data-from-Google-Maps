@@ -5,7 +5,7 @@ import time
 
 # Declar API Key & Query
 key = 'AIzaSyBKOK-XXXXX'
-query = 'Schools+in+Cairo'
+query = 'Nepalese+Restaurants+Finland'
 url = 'https://maps.googleapis.com/maps/api/place/textsearch/json?query=' + str(query) + '&key=' + str(key)
 
 # Parse JSON
