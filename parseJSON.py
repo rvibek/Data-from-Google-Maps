@@ -70,10 +70,10 @@ else:
     print('No result found')
 
 
-# Function Call
-getjson(url, pagetoken, key, query)
-
-
 # Print Results
 for i in range(len(names)):
     print('"' + names[i] + '", "' + address[i] + '"')
+
+
+# Function Call
+getjson(url, pagetoken, key, query)
