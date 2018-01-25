@@ -67,7 +67,7 @@ if len(f['results']) > 0:
         names.append((f['results'][count]['name']))
         address.append(f['results'][count]['formatted_address'])
 else:
-    print('No result founds')
+    print('No result found')
 
 
 # Function Call
